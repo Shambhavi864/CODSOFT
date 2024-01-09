@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    background-image: url("./Images/Earthy\ Brown\ And\ Black\ Decor\ With\ Rugged\ Rock\ Features\ &\ Luxurious\ Lighting\ -\ Copy.jpeg");
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* inline-block takii left ko left mei hi rakhe aur uski width vagera set ho sake */
+    position: absolute;
+    left: 38px;
+    top: 20px;
+}
+.left img{
+    width: 90px;
+    height: 45px;
+}
+.left div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 1% 32% ;
+    /* border: 2px solid green; */
+}
+.right{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 7px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: gray;
+    text-decoration: underline;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 9px 14px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    border: 2px solid white;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    right: 50%;
+    padding: 1% 1% 5% 3%;
+    /* trbl */
+    border-radius: 5%;
+}
+
+.form-group input{
+    text-align: center;
+    width: 95%;
+    margin-top: 2%;
+    padding: 1% 1% 1% 1%;
+    font-family: 'Playfair Display', serif;
+}
+.container h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: white;
+}
+#ss{
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 0%;
+}
+#ss:hover{
+    background-color: black;
+    color: gray;
+}
